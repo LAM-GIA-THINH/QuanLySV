@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingFragment"
+    android:background="@drawable/peakpx">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông tin về ứng \n dụng"
+
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="100dp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/graylight"
+        android:textSize="25dp"
+        android:text="App quản lý văn phòng\nphẩm"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="180dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngôn ngữ lập trình \nsử dụng"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="280dp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java, xml"
+        android:textColor="@color/graylight"
+        android:textSize="25dp"
+
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="360dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ứng dụng được lập \ntrình bời"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="440dp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/graylight"
+        android:textSize="25dp"
+        android:text="Lâm Gia Thịnh"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="520dp"
+        />
+</FrameLayout>
